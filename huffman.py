@@ -7,7 +7,7 @@ import typing
 from collections import Counter
 
 def build_codes(text: str) -> typing.Dict[str, str]:
-    "Detemine the encoding"
+    "Determine the encoding"
 
     # the first element of each list is the summed count of all subsequent chars
     # [summed_count, ...chars]
