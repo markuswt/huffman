@@ -1,6 +1,6 @@
-# huffman.py
+# huffman-py
 
-A toy huffman encoder
+A toy huffman encoder.
 
 ```bash
 $ ./huffman.py encode foo
@@ -9,7 +9,6 @@ $ ./huffman.py encode foo
 1='o'
 [Content]
 011
-
 $ echo foo | ./huffman.py encode
 [Codes]
 0='o'
@@ -17,7 +16,6 @@ $ echo foo | ./huffman.py encode
 11='\n'
 [Content]
 100011
-
 $ echo foo | ./huffman.py encode | ./huffman.py decode
 foo
 ```
