@@ -90,7 +90,7 @@ def decode_stdin() -> None:
                 codes[code[0]] = code[1][1:-1]  # don't include "'"
         
         elif state == 2:
-            print(decode(line.rstrip(), codes))
+            sys.stdout.write(decode(line.rstrip(), codes))
 
 
 if __name__ == "__main__":
