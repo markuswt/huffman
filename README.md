@@ -1,4 +1,4 @@
-# huffman-py
+# huffman
 
 A toy huffman encoder.
 
